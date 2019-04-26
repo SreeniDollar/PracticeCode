@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11962" started-at="2019-04-26T07:57:19Z" finished-at="2019-04-26T07:57:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11962" started-at="2019-04-26T07:57:19Z" finished-at="2019-04-26T07:57:31Z">
+      <class name="com.pages.BrowserLaunch">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:com.pages.BrowserLaunch@4cdbe50f]" name="launchbrowser" duration-ms="11940" started-at="2019-04-26T07:57:19Z" finished-at="2019-04-26T07:57:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+      </class> <!-- com.pages.BrowserLaunch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
