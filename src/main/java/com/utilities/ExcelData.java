@@ -24,7 +24,6 @@ public class ExcelData {
 		{
 			for(int j=0; j<sheet.getRow(0).getLastCellNum(); j++)
 			{
-				
 				data[i][j]=sheet.getRow(i+1).getCell(j).toString();
 			}
 		}

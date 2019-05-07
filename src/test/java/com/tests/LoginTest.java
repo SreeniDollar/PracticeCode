@@ -16,6 +16,8 @@ public class LoginTest extends BaseClass {
 	public void loginuser(String method, String emailid,String password) throws IOException, InterruptedException {
 		HomePage homepage = new HomePage(driver);
 		LoginPage loginpage = new LoginPage(driver);
+		System.out.println(method);
+		
 		homepage.clicksignin();
 		Reporter.log("clicked signin", true);
 		loginpage.enteremail(emailid);
