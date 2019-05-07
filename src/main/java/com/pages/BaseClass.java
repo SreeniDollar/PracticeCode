@@ -17,7 +17,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	public WebDriver driver;
-	
+	public String channel;
 	static Properties properities;
 	
 	public static void loadData() throws IOException

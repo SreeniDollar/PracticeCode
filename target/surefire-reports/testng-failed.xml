@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <parameter name="browser" value="edge"/>
+  <parameter name="browser" value="chrome"/>
   <parameter name="env" value="amazonqaurl"/>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="com.tests.LoginTest">
+      <class name="com.tests.LoginTest2">
         <methods>
-          <include name="loginuser"/>
+          <include name="loginuser2"/>
           <include name="launchbrowser"/>
         </methods>
-      </class> <!-- com.tests.LoginTest -->
+      </class> <!-- com.tests.LoginTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
