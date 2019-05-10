@@ -32,8 +32,8 @@
 				<version>2.18.1</version>
 				<configuration>
 					<systemPropertyVariables>
-						<browser>chrome</browser>
-						<env>amazonqaurl</env>
+						<browser>${browser}</browser>
+						<env>${env}</env>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/main/resources/amazontest.xml</suiteXmlFile>
